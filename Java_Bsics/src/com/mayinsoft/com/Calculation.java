@@ -16,6 +16,10 @@ public class Calculation {
 		System.out.println("Multiplication: "+mul);
 		System.out.println("Division: "+div);
 		System.out.println("Modulus: "+mod);
+		//string concationation
+		String s="Anuja";
+		String s1="Andge";
+		System.out.println("Concatination: "+s+" "+s1);
 
 	}
 
