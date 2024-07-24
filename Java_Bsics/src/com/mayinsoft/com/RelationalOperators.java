@@ -1,8 +1,15 @@
 package com.mayinsoft.com;
 
 import java.util.Scanner;
+//Relational Operators
+//1.==
+//2. !=
+//3. <
+//4. >
+//5. <=
+//6. >=
 
-public class Operators {
+public class RelationalOperators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
