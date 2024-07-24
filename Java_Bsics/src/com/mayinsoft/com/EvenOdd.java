@@ -11,6 +11,7 @@ public class EvenOdd {
 //		else {
 //			System.out.println(num+" is odd number.");
 //		}
+		//use of ternary operator
 		System.out.println((num%2==0) ? "this is even number" : "this is odd number");
 	}
 }
