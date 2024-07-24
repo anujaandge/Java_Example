@@ -1,5 +1,7 @@
 package com.mayinsoft.com;
 import java.util.Scanner;
+//Arithmatic Operators 
+//1.+ 2.- 3.* 4./ 5. %
 
 public class ArithmaticOperator {
 	int a=0;
