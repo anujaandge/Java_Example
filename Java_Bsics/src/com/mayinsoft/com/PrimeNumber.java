@@ -21,7 +21,7 @@ public class PrimeNumber {
 		 if(n<=1 ) {
 			 return false;
 		 }
-		 for(int i=2;i<Math.sqrt(n);i++) {
+		 for(int i=2;i<=Math.sqrt(n);i++) {
 			 if(n%i==0) {
 				 return false;
 			 }
@@ -43,9 +43,5 @@ public class PrimeNumber {
 		primeOrNot(num);
 	    System.out.println(isPrime(num)?"prime":"Not prime");
 		checkPrime(num);
-		 
-		
-		  
-		
 	}
 }
