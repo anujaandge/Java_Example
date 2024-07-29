@@ -49,6 +49,17 @@ public class StringMethods {
 		System.out.println(s1.toUpperCase());//convert to uppercase letter
 		System.out.println(s1.toLowerCase());//convert to lowercase letter
 	}
+	void findStringInAnother() {
+		String x="My name is Anuja";
+		String y="name";
+		String z="Name";
+		System.out.println(x.contains(y));//true
+		System.out.println(x.contains(z));//false
+		System.out.println(x.indexOf('i'));
+		System.out.println(x.indexOf("anuja"));
+		System.out.println(x.indexOf("Anuja"));
+	    System.out.println(x.indexOf('z'));
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s1="Anuja15";
@@ -64,6 +75,7 @@ public class StringMethods {
 		stringMethods.compareByConstant();
 		stringMethods.copmapreByIntern();
 		stringMethods.changeCase(s1);
+		stringMethods.findStringInAnother();
 
 	}
 
