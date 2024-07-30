@@ -40,13 +40,13 @@ public class StringSpliting {
 	}
 	void useStringTokenizer() {
 		String s="I am Anuja Andge";
-		StringTokenizer st=new StringTokenizer(s);
+		StringTokenizer st=new StringTokenizer(s);//here space is used for splitting
 		while (st.hasMoreElements()) {
 			System.out.println(st.nextToken()); 
 			
 		}
 		System.out.println("\n");
-		StringTokenizer x=new StringTokenizer(s,"Au");
+		StringTokenizer x=new StringTokenizer(s,"Au");// in this case 'A' and 'u' is used for splitting
 		while (x.hasMoreElements()) {
 		System.out.println(x.nextToken());
 			
