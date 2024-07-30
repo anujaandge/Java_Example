@@ -55,11 +55,12 @@ public class StringMethods {
 		String z="Name";
 		System.out.println(x.contains(y));//true
 		System.out.println(x.contains(z));//false
-		System.out.println(x.indexOf('i'));
-		System.out.println(x.indexOf("anuja"));
-		System.out.println(x.indexOf("Anuja"));
-	    System.out.println(x.indexOf('z'));
+		System.out.println(x.indexOf('i'));//8
+		System.out.println(x.indexOf("anuja"));//-1 not in the string
+		System.out.println(x.indexOf("Anuja"));//11
+	    System.out.println(x.indexOf('z'));//-1 not in thre string
 	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s1="Anuja15";
